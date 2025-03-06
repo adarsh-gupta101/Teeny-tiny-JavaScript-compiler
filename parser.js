@@ -1,5 +1,4 @@
-
-function parse(tokens) {
+module.exports= function parse(tokens) {
     let current = 0;
   
     function parseProgram() {
